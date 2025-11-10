@@ -1,0 +1,424 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
+*{
+  margin:0;
+}
+body
+{
+  margin:0;
+  background-color: gainsboro;
+}
+
+#header
+{
+  margin:0;
+  padding:0;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  margin-bottom: 100px;
+  z-index: 1000;
+}
+
+#main
+{
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+}
+
+#Layer_1
+{
+  margin: 5px 5px;
+  height: 50px;
+  width: 100%;
+}
+
+#textForm
+{
+  margin-top: 100px;
+  transform: translateX(100px);
+}
+
+#logo a
+{
+  float: left;
+  margin-right: 50px;
+}
+
+.navBar
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li
+{
+  display: inline;
+  padding: 0;
+}
+
+.navBarItem
+{
+  float: left;
+  display: inline;
+}
+
+.navBarItem a, input
+{
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Bayon';
+  color: #006838;
+  background-color: white;
+  border:none;
+}
+
+
+.navBarItem a:hover
+{
+  background-color: #006838;
+  color: white;
+  cursor: pointer;
+}
+
+.navBarItem input:hover
+{
+  background-color: #006838;
+  color: white;
+  cursor: pointer;
+}
+
+#loginIcon
+{
+  float: right;
+}
+
+#loginIcon:hover
+{
+  background-color: #006838;
+  color: white;
+  cursor: pointer;
+}
+
+#loginIcon:link
+{
+  color: #006838;
+}
+
+h1
+{
+  text-align: center;
+  font-family: 'Bayon';
+  color: #006838;
+  font-size: 100px;
+}
+
+h2
+{
+  text-align: center;
+  font-family: 'Bayon';
+  color: #39b54a;
+  font-size: 50px;
+}
+
+#loginArea
+{
+  width: 1000px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 10px 10px;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+#login
+{
+  background-color: #006838;
+  padding: 50px 50px;
+  width: 20%;
+  height: 80%;
+  float: left;
+  margin-right:0;
+}
+
+.credentialInput
+{
+  margin: auto;
+  margin-bottom: 50px;
+  width: 200px;
+  height: 40px;
+  font-size: 25px;
+  background-color: white;
+  border-style: solid;
+  border-color: #006838;
+  border-radius: 10px;
+  font-family: 'Helvetica';
+  
+}
+
+#credentialInputForm
+{
+  margin: auto;
+}
+
+#loginButton
+{
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #39b54a;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Bayon';
+  color: white;
+}
+
+#loginButton:hover
+{
+  cursor: pointer;
+  
+}
+
+#registerLink
+{
+    
+  background-color: white;
+  width: 70%;
+  height: 100%;
+  float: right;
+}
+
+hr
+{
+  width: 30%;
+  height: 5px;
+  color: #006838;
+  background-color: #006838;
+  border: none;
+  margin: auto;
+}
+
+#registerButton
+{
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #39b54a;
+  border: none;
+  font-family: 'Bayon';
+  text-decoration: none;
+  float: right;
+  margin-right: 44%;
+}
+
+#registerButton:link
+{
+  color: white;
+}
+
+#discussionsDiv
+{
+  
+  transform: translateY(75px);
+}
+
+.postForm
+{
+  background-color:darkgrey;
+  width: 500px;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.viewButton
+{
+  font-size: 20px;
+  padding:0;
+  float:right;
+  margin-bottom: 10px;
+  transform:translateY(-45px);
+  position: absolute;
+  width: 500px;
+  height: 50px;
+  opacity: 0;
+}
+
+.viewButton:hover
+{
+  cursor: pointer;
+  background-color: #006838;
+  color: white;
+  
+}
+
+.title
+{
+  color: #006838;
+  font-family: 'Bayon';
+  font-size:15px;
+}
+
+.author
+{
+    font-family: 'Bayon';
+    
+}
+
+.divider
+{
+  transform: translateY(-10px);
+}
+
+.deleteButton
+{
+  font-size: 20px;
+  padding:0;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  transform:translateX(-10px);
+  z-index: 999;
+  margin-bottom: 50px;
+}
+
+.deleteButton:hover
+{
+  cursor: pointer;
+    background-color: #006838;
+  color: white;
+}
+
+.categorySelect
+{
+  margin-left: 100px;
+  border-radius: 5px;
+  font-family: 'Bayon';
+  font-size: 25px;
+}
+
+#titleInput
+{
+  margin-left: 100px;
+  margin-top: 10px;
+  border-radius: 5px;
+  
+}
+
+#contentInput
+{
+  margin-left: 100px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.createPostButton
+{
+  margin-left: 100px;
+  border-radius:5px;
+  
+}
+
+.createPostButton:hover
+{
+    cursor: pointer;
+    background-color: #006838;
+  color: white;
+}
+
+.postsForm
+{
+  background-color:darkgrey;
+  width: 500px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+#contentDiv
+{
+  width: 1000px;
+  height: 500px;
+  border-radius: 5px;
+  margin-left: 100px;
+  background-color: darkgrey;
+  margin-bottom: 100px;
+  font-size: 30px;
+  font-family: 'Bayon';
+  padding-left: 20px;
+  padding-top: 10px;
+  overflow: scroll;
+}
+
+#commentsDiv
+{
+  margin-left: 100px;
+  width: 500px;
+}
+
+#commentInput
+{
+  border-radius: 5px;
+  font-family: 'Bayon';
+  font-size: 20px;
+  
+}
+
+.commentButton
+{
+  font-size: 20px;
+  padding:0;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  z-index: 999;
+  margin-bottom: 50px;
+}
+
+.commentButton:hover
+{
+  cursor: pointer;
+  background-color: #006838;
+  color: white;
+}
+
+.tab
+{
+  background-color: #006838;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 30px;
+  width: 25%;
+  font-family: 'Bayon'; 
+}
+
+.tab:hover
+{
+  background-color:gainsboro;
+  cursor:pointer;
+  color: #006838;
+}
+
+.tabContent
+{
+  
+}

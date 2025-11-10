@@ -1,0 +1,39 @@
+# NetBeans specific
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Build artifacts
+build/
+target/
+
+# Compiled class files
+*.class
+*.war
+*.ear
+*.jar
+
+# Log files
+*.log
+
+# Package files
+*.rar
+*.zip
+*.tar.gz
+*.7z
+
+# IDE specific files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.bak
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+./src/conf/
